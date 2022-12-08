@@ -4,6 +4,7 @@
     transition: width 0.2s ease-out;
     border: 0.1vw solid grey;
     z-index: 10;
+    margin-bottom: 2vh;
 }
 
 .instruction-button {
@@ -46,4 +47,57 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: "white";
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.selection {
+    max-width: 15%;
+}
+
+.experiment-label {
+    display: block;
+    font-size: large;
+    font-weight: 300;
+}
+
+#experiment {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: block;
+}
+
+.experiment {
+    width: 75vw;
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.prettyprint {
+    border: none !important;
+    translate: -5vw 0;
+}
+
+.task {
+    max-width: 20vw;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+span {
+    /* display: inline-block; */
+    font-size: x-large;
+    margin-bottom: 3vh;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 500px) {
+    .main-container {
+        flex-direction: column;
+    }
 }

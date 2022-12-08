@@ -3,16 +3,16 @@
 }
 
 #cards {
-    position: relative; 
+    position: relative;
     text-align: center;
 }
 
 .card {
-    display: inline-block; 
+    display: inline-block;
     padding: 1.7%;
-    margin: 0.05%;  
-    color: white; 
-    background-color: #288ec8; 
+    margin: 0.05%;
+    color: white;
+    background-color: #288ec8;
 }
 
 #legend-comment-wrapper {
@@ -44,7 +44,7 @@
     transition: padding-top 0.2s ease-out;
 }
 
-p,span {
+p,
+span {
     text-align: center;
 }
-Footer
