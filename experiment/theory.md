@@ -332,21 +332,3 @@ All the list which were created above were converted into tuples , now since tup
 Image 5 represents that after writing programs using list and tuples data types, he created another program by using dictionary data types. He utilised dictionary to create food menu(which consisted of food name and price in the form of key value pair) which are available in the train canteen and it would be beneficial for all the passengers travelling on the train to have a look at the menu and order food in the train accordingly. By utilizing set data type, he created a set which consists of all the stations where the train will halt during the journey from source to destination station
 
 Image 6 represents that sanjay is happy , because all his codes are working fine and he would be able to submit his assignment before the deadline
-
-
-Image References
-
-1.<https://konversations.com/stories/index/why-cse-computer-science-engineering-1>
-
-2.<https://www.dreamstime.com/stock-image-confused-man-question-mark-sitting-computer-above-head-image40156351>
-
-\3. <https://www.hostinger.com/tutorials/learn-coding-online-for-free>
-
-4.<https://www.vit.edu/blog/item/546-top-reasons-to-choose-computer-engineering-or-it-engineering>
-
-\5. <https://realpython.com/courses/python-dictionary-iteration/>
-
-6.<https://www.shutterstock.com/image-vector/software-developer-work-program-code-programmer-2079511849>
-
-
-
