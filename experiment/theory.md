@@ -298,19 +298,19 @@ Step 1: He created a list of source stations from where the user can board a tra
 Step 2: He created a list of destination stations i.e **destination\_stations=['goa','mumbai','delhi']**, the user would be able to get down only at the stations mentioned above
 
 Step 3: further he created the following list:
+```.py
+passanger_name=[] → stores the passenger name
 
-passanger\_name=[] → stores the passenger name
+passanger_age=[] → stores the passenger age
 
-passanger\_age=[] → stores the passenger age
-
-passanger\_birth\_list=['Upper\_Birth','Middle\_Birth','Lower\_birth'] → stores different types of birth available
+passanger_birth_list=['Upper\_Birth','Middle\_Birth','Lower\_birth'] → stores different types of birth available
 
 birth\_assigned=[] → stores the birth which is assigned to passenger based on his/her age
 
 seat\_no=[] → stores seat number assigned to passengers
 
 boarding\_station=[] → stores the passenger boarding station
-
+```
 Step 4: He kept an input statement which asks the user to enter name of the station from where the wish to board train, only if the user enters the name of the station which is present inside source\_station list, the user is further allowed to proceed, otherwise an appropriate message is displayed to the user and the program terminates 
 
 Step 5: If the source station entered by the user in step(4) exists then the user is again asked to enter his/her destination station. If the destination station which is entered by the user is present inside destionation\_station list ,the user is further allowed to proceed, otherwise an appropriate message is displayed to the user and the program terminates
