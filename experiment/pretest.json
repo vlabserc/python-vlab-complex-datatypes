@@ -9,6 +9,12 @@
 				"c": "Neither true nor false",
 				"d": "None of the above"
 			},
+			"explanations": {
+        					 "a": "Wrong Answer: Lists in python are mutable",
+       						 "b": "Correct Answer: In Python, lists are mutable, which means that you can modify their elements. You can add, remove, or change items in a list after it has been created.",
+       						 "c": "Wrong Answer:Lists are mutable in python",
+        					 "d": "Wrong Answer:Lists are mutable in python"
+      },
 			"correctAnswer": "b",
 			"difficulty": "beginner"
 		},
@@ -20,6 +26,12 @@
 				"c": "Neither true nor false",
 				"d": "None of the above"
 			},
+			 "explanations": {
+        					"a": "Correct Answer:In Python, lists are created using square brackets ([]), not curly brackets ({}). Curly brackets are used to create sets and dictionaries in Python",
+        					"b": "Wrong Answer:Lists in python cannot be created using curly brackets",
+        					"c": "Wrong Answer:Lists in python can never be created using curly brackets",
+        					"d": "Wrong Answer:The answer lies in one of the options which is mentioned above"
+      },
 			"correctAnswer": "a",
 			"difficulty": "beginner"
 		},
@@ -31,6 +43,12 @@
 				"c": "Neither true nor false",
 				"d": "None of the above"
 			},
+			 "explanations": {
+        					"a": "Wrong Answer:Please rethink",
+        					"b": "Correct Answer:In Python, tuples are immutable, meaning their elements cannot be modified once they are defined. However, you can convert a tuple into a list, modify the list, and then convert it back into a tuple if needed",
+        					"c": "Wrong Answer:Please memorize the concepts of tuples and list again",
+        					"d": "wRONG Answer:The correct answer lies in one of the options mentioned above"
+      },
 			"correctAnswer": "b",
 			"difficulty": "beginner"
 		},
@@ -42,9 +60,15 @@
 				"c": "Neither true nor false",
 				"d": "None of the above"
 			},
-			"correctAnswer": "a",
+			"correctAnswer": "b",
 			"difficulty": "beginner"
 		},
+		"explanations": {
+        				"a": "Wrong Answer:Please rethink",
+        				"b": "Correct Answer: In Python, a dictionary cannot consist of two items with the same key. Dictionary keys must be unique within a dictionary",
+        				"c": "Wrong Answer:Please revise the concepts of dictionary once again",
+        				"d": "Wrong Answer:The correct answer lies in one of the options, mentioned above"
+      },
 		{
 			"question": "Tuples in python are _____;  and lists are ______",
 			"answers": {
@@ -53,6 +77,12 @@
 				"c": "Both (a) and (b)",
 				"d": "None of the above"
 			},
+			"explanations": {
+        					"a": "This option is the correct answer. It correctly states that tuples in Python are immutable, meaning their elements cannot be modified after they are defined. On the other hand, lists are mutable, allowing for modifications such as adding, removing, or changing elements",
+        					"b": "This option is incorrect because it swaps the characteristics of tuples and lists",
+        					"c": "This option is incorrect because it includes both the correct and incorrect statements from options a and b. Since option b is incorrect, this option cannot be considered correct.",
+        					"d": "This option is incorrect because there is a correct answer among the given options. Option a correctly states that tuples are immutable and lists are mutable, making it the correct answer."
+      },
 			"correctAnswer": "a",
 			"difficulty": "intermediate"
 		},
@@ -64,6 +94,12 @@
 				"c": "Tuples",
 				"d": "None of the above"
 			},
+			"explanations": {
+        					"a": "This option is the correct answer. Sets in Python are unordered collections of unique elements. They do not allow duplicate elements, which means that if you try to add an element that already exists in the set, it will not be added again",
+        					"b": "This option is incorrect. Lists in Python can contain duplicate elements. You can have multiple occurrences of the same value within a list.",
+        					"c": "This option is incorrect. Tuples in Python can also contain duplicate elements. Like lists, tuples allow for multiple occurrences of the same value.",
+        					"d": "This option is incorrect because there is a correct answer among the given options"
+      },
 			"correctAnswer": "a",
 			"difficulty": "intermediate"
 		},
@@ -75,6 +111,12 @@
 				"c": "-1",
 				"d": "None of the above"
 			},
+			 "explanations": {
+        					"a": "This option is incorrect. List indices in Python start from 0, not 1. The first element of a list is accessed using index 0, the second element using index 1, and so on. If we were to assume that list indices start from 1, it would lead to incorrect indexing and accessing of elements in a list.",
+        					"b": "This option is the correct answer. In Python, list indices start from 0. This means that the index of the first element in a list is 0, the second element is at index 1, the third element at index 2, and so on",
+        					"c": "This option is incorrect. The index -1 is used to access the last element of a list in Python, not to indicate the starting index. Using -1 as the starting index would be incorrect and result in accessing the last element instead of the first element.",
+        					"d": "This option is incorrect because there is a correct answer among the given options"
+      },
 			"correctAnswer": "b",
 			"difficulty": "intermediate"
 		},
@@ -86,6 +128,12 @@
 				"c": "Cannot be determined",
 				"d": "None of the above"
 			},
+			"explanations": {
+        					"a": "This option is incorrect. The reverse parameter in the list sort() method is not mandatory. By default, the sort() method sorts the list in ascending order. If you want to sort the list in descending order, you can specify the reverse parameter as True.",
+        					"b": "This option is the correct answer. The reverse parameter in the list sort() method is not mandatory. It is an optional parameter, and if you don't provide it or set it to False, the list will be sorted in ascending order.",
+        					"c": "This option is incorrect. The behavior of the reverse parameter in the list sort() method can be determined",
+        					"d": "This option is incorrect because there is a correct answer among the given options"
+      },
 			"correctAnswer": "b",
 			"difficulty": "intermediate"
 		},
@@ -97,6 +145,12 @@
 				"c": "Dictionaries",
 				"d": "Tuples"
 			},
+			"explanations": {
+        					"a": "This option is incorrect. Lists in Python store data in an ordered format, where elements are accessed using indices. They do not have a key-value format. Lists allow duplicate entries and are mutable.",
+        					"b": "This option is incorrect. Sets in Python store unique elements in an unordered format. They do not use a key-value format. Sets are mutable but do not allow duplicate entries.",
+        					"c": "This option is the correct answer. Dictionaries in Python store data in a key-value format. They are unordered collections of elements, where each element is accessed using a unique key.",
+        					"d": "This option is incorrect. Tuples in Python are ordered collections of elements, but they do not store data in a key-value format."
+      },
 			"correctAnswer": "c",
 			"difficulty": "advanced"
 		},
@@ -108,7 +162,13 @@
 				"c": "No change in the list",
 				"d": "None of the above"
 			},
-			"correctAnswer": "b",
+			"explanations": {
+        					"a": "This option is the correct answer. When you use the list.sort(reverse=True) method in Python, it sorts the list in descending order. ",
+        					"b": "This option is incorrect. If you use list.sort(reverse=True), it will sort the list in descending order, not ascending order.",
+        					"c": "This option is incorrect. Using list.sort(reverse=True) will indeed change the order of elements in the list.",
+        					"d": "This option is incorrect because there is a correct answer among the given options."
+      },
+			"correctAnswer": "a",
 			"difficulty": "advanced"
 		},
 		{
@@ -119,6 +179,12 @@
 				"c": "update()",
 				"d": "None of the above"
 			},
+			 "explanations": {
+        					"a": "This option is incorrect. The append() method is used to add elements to the end of a list in Python. It is not used to add key-value pairs to a dictionary.",
+        					"b": "This option is incorrect. The add() method is used to add elements to a set in Python. It is not used to add key-value pairs to a dictionary.",
+        					"c": "This option is the correct answer. The update() method is used to add new key-value pairs to an existing dictionary in Python. It takes another dictionary or an iterable of key-value pairs as an argument and adds them to the dictionary.",
+        					"d": "This option is incorrect because there is a correct answer among the given options."
+      },
 			"correctAnswer": "c",
 			"difficulty": "advanced"
 		},
@@ -130,6 +196,12 @@
 				"c": "pop",
 				"d": "reverse"
 			},
+			 "explanations": {
+        					"a": "This option is the correct answer. The append() method is used to add elements at the end of a list in Python. It takes a single argument, which is the element to be added, and appends it to the end of the list.",
+        					"b": "This option is incorrect. The extend() method is used to append multiple elements to the end of a list.",
+        					"c": "This option is incorrect. The pop() method is used to remove and return an element from a list based on its index. It does not add elements to the end of a list.",
+        					"d": "This option is incorrect. The reverse() method is used to reverse the order of elements in a list. It does not add elements to the end of a list."
+      },
 			"correctAnswer": "a",
 			"difficulty": "advanced"
 		}
