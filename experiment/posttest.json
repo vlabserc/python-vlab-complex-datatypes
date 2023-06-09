@@ -137,23 +137,7 @@
       "correctAnswer": "c",
       "difficulty": "intermediate"
     },
-    {
-      "question": "Which of the following datatypes once created does not allows you to modify or change elements?",
-      "answers": {
-        "a": "Set",
-        "b": "List",
-        "c": "Tuples",
-        "d": "None of the above"
-      },
-       "explanations": {
-                          "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                          "b": "Explanation 2",
-                          "c": "Explanation 2",
-                          "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
-    },
+   
     {
       "question": "numbers=(1,2,2,3,4,5,6,7,7,7), numbers.count(2) will return the output as ?",
       "answers": {
@@ -163,10 +147,10 @@
         "d": "Error"
       },
        "explanations": {
-                          "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                          "b": "Explanation 2",
-                          "c": "Explanation 2",
-                          "d": "Explanation 2"
+                          "a": "This option is the correct answer. When you use the count() method on the tuple numbers with the argument 2, it will count the number of occurrences of the value 2 in the tuple. In the given tuple, the value 2 appears twice, so the count() method will return the output as 2.",
+                          "b": "This option is incorrect. The value 2 appears only twice in the tuple numbers, not three times. Therefore, the count() method will not return 3.",
+                          "c": "This option is incorrect. The value 2 appears only twice in the tuple numbers, not four times. Therefore, the count() method will not return 4.",
+                          "d": "This option is incorrect. The count() method does not raise an error in this scenario"
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
@@ -180,10 +164,10 @@
         "d": "Error"
       },
        "explanations": {
-                          "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                          "b": "Explanation 2",
-                          "c": "Explanation 2",
-                          "d": "Explanation 2"
+                          "a": "This option is the correct answer. When you use the items() method on the dictionary student_info, it returns a view object that contains tuples of key-value pairs from the dictionary. Each tuple represents a key-value pair in the format ('key', 'value')",
+                          "b": "This option is incorrect. The items() method returns tuples of key-value pairs, not just the keys. Therefore, it will not return ['name', 'Age', 'Hometown', 'Occupation'].",
+                          "c": "This option is incorrect. The items() method returns tuples of key-value pairs, not just the values. Therefore, it will not return ['Prasad', 24, 'mumbai', 'Engineer'].",
+                          "d": "This option is incorrect. The items() method does not raise an error in this scenario."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
@@ -197,10 +181,10 @@
         "d": "IndexError"
       },
        "explanations": {
-                          "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                          "b": "Explanation 2",
-                          "c": "Explanation 2",
-                          "d": "Explanation 2"
+                          "a": "This option is incorrect. The index() method is used to find the index of an element in a list, not in a set. Since fruits is a set, the index() method is not applicable, and it will raise an error.",
+                          "b": "This option is incorrect for the same reason as option a. The index() method cannot be used with sets, so it will raise an error.",
+                          "c": "This option is the correct answer. When you try to use the index() method on a set, it raises an AttributeError because sets do not support indexing or have a specific order. Sets are unordered collections of unique elements, and they do not have a notion of indices.",
+                          "d": "This option is incorrect. The IndexError is raised when you try to access an index that is out of range in a sequence like a list or tuple."
       },
       "correctAnswer": "c",
       "difficulty": "advanced"
@@ -214,10 +198,10 @@
         "d": "7"
       },
        "explanations": {
-                          "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                          "b": "Explanation 2",
-                          "c": "Explanation 2",
-                          "d": "Explanation 2"
+                          "a": "This option is incorrect. The index() method returns the index of the first occurrence of the specified element in a tuple. In the given tuple numbers, the first occurrence of the element 7 is at index 6, not at index 2.",
+                          "b": "This option is incorrect. Similarly to option a, the first occurrence of the element 7 in the numbers tuple is at index 6, not at index 5.",
+                          "c": "This option is incorrect. The index 6 corresponds to the element 6 in the numbers tuple, not the element 7.",
+                          "d": "This option is the correct answer. The index() method returns the index of the first occurrence of the specified element in a tuple. In the given numbers tuple, the first occurrence of the element 7 is at index 7."
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
